@@ -1,10 +1,10 @@
 import React from "react";
-import { Container, Nav, Navbar } from "react-bootstrap";
+import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 
 const Header = () => {
   return (
     <div>
-      <Navbar bg='dark' expand="lg" className="bg-body-tertiary">
+      <Navbar bg="dark" expand="lg" className="bg-body-tertiary">
         <Container>
           <Navbar.Brand href="/">
             <h1>Red Oak District</h1>
@@ -16,6 +16,11 @@ const Header = () => {
               <Nav.Link href="/neighborhood">The Neighborhood</Nav.Link>
               <Nav.Link href="/future">The Future</Nav.Link>
               <Nav.Link href="/events">The Events</Nav.Link>
+              <NavDropdown title="Follow Us">
+                <NavDropdown.Item>Facebook</NavDropdown.Item>
+                <NavDropdown.Item>Instagram</NavDropdown.Item>
+                <NavDropdown.Item>Twitter</NavDropdown.Item>
+              </NavDropdown>
             </Nav>
           </Navbar.Collapse>
         </Container>
