@@ -7,6 +7,8 @@ import Program from "./containers/Program";
 import Neighborhood from "./containers/Neighborhood";
 import Future from "./containers/Future";
 import Events from "./containers/Events";
+import Committees from "./containers/Committees";
+import Board from "./containers/Board";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           <Route path="neighborhood" element={<Neighborhood />} />
           <Route path="future" element={<Future />} />
           <Route path="events" element={<Events />} />
+          <Route path="board" element={<Board />} />
+          <Route path="committees" element={<Committees />} />
           <Route path="/" element={<Home />} />
         </Routes>
       </Router>
