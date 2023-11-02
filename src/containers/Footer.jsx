@@ -1,9 +1,12 @@
+import moment from "moment";
 import React from "react";
 
 const Footer = () => {
   return (
     <div>
-      <h1>This is the footer.</h1>
+      <h5 class="text-center">
+        © {moment().format("YYYY")} Red Oak District. City of South Fulton.
+      </h5>
     </div>
   );
 };
