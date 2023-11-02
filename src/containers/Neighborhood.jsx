@@ -1,10 +1,11 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 
 const Neighborhood = () => {
     return (
-        <div>
+        <Container >
             The Neighborhood
-        </div>
+        </Container>
     );
 };
 

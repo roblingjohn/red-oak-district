@@ -1,10 +1,11 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 
 const Future = () => {
     return (
-        <div>
+        <Container>
             The Future
-        </div>
+        </Container>
     );
 };
 

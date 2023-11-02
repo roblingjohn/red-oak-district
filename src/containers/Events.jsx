@@ -1,10 +1,11 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 
 const Events = () => {
     return (
-        <div>
+        <Container>
             The Events
-        </div>
+        </Container>
     );
 };
 
