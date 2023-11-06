@@ -17,9 +17,19 @@ const Header = () => {
               <Nav.Link href="/arts">Arts & Culutre</Nav.Link>
               <Nav.Link href="/events">Calendar</Nav.Link>
               <NavDropdown title="Follow Us">
-                <NavDropdown.Item>Facebook</NavDropdown.Item>
-                <NavDropdown.Item>Instagram</NavDropdown.Item>
-                <NavDropdown.Item>Twitter</NavDropdown.Item>
+                <NavDropdown.Item
+                  href="https://www.facebook.com/RedOakDistrict/"
+                  target="_blank"
+                >
+                  Facebook
+                </NavDropdown.Item>
+                <NavDropdown.Item
+                  href="https://www.instagram.com/redoakdistrict/"
+                  target="_blank"
+                >
+                  Instagram
+                </NavDropdown.Item>
+                {/* <NavDropdown.Item>Twitter</NavDropdown.Item> */}
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
