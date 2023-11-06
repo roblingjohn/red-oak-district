@@ -9,6 +9,8 @@ import Future from "./containers/Future";
 import Events from "./containers/Events";
 import Committees from "./containers/Committees";
 import Board from "./containers/Board";
+import InstagramPosts from "./components/InstagramPosts";
+import Newsletter from "./components/Newsletter";
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
           <Route path="/" element={<Home />} />
         </Routes>
       </Router>
+      <InstagramPosts />
+      <Newsletter />
       <Footer />
     </div>
   );
