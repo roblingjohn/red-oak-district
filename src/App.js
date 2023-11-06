@@ -2,7 +2,7 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./containers/Header";
 import Home from "./containers/Home";
-import Footer from "./containers/Footer";
+import Footer from "./components/Footer";
 import Program from "./containers/Program";
 import Neighborhood from "./containers/Neighborhood";
 import Future from "./containers/Future";
