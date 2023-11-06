@@ -11,6 +11,9 @@ import Committees from "./containers/Committees";
 import Board from "./containers/Board";
 import InstagramPosts from "./components/InstagramPosts";
 import Newsletter from "./components/Newsletter";
+import History from "./containers/History";
+import Businesses from "./containers/Businesses";
+import Arts from "./containers/Arts";
 
 function App() {
   return (
@@ -24,6 +27,9 @@ function App() {
           <Route path="events" element={<Events />} />
           <Route path="board" element={<Board />} />
           <Route path="committees" element={<Committees />} />
+          <Route path="history" element={<History />} />
+          <Route path="businesses" element={<Businesses />} />
+          <Route path="arts" element={<Arts />} />
           <Route path="/" element={<Home />} />
         </Routes>
       </Router>
