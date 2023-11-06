@@ -24,7 +24,6 @@ const Newsletter = () => {
           </div>
         </Col>
       </Row>
-      Logo
     </div>
   );
 };
