@@ -4,10 +4,10 @@ import Box from "./Box";
 
 const Boxes = () => {
   const boxData = [
-    { displayName: "The Program", route: "/program" },
-    { displayName: "The Neighborhood", route: "/neighborhood" },
-    { displayName: "The Future", route: "/future" },
-    { displayName: "The Events", route: "/events" },
+    { displayName: "History", route: "/history" },
+    { displayName: "Arts & Culture", route: "/arts" },
+    { displayName: "Events", route: "/events" },
+    { displayName: "Businesses", route: "/businesses" },
   ];
   return (
     <div>
