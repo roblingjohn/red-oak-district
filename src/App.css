@@ -39,7 +39,13 @@
 .box-content {
   position: absolute;
   top: 40%;
-  left: 1rem;
+  left: 0;
   bottom: 0;
   right: 0;
+  text-align: center;
+}
+
+a.box-link {
+  color: white;
+  text-decoration: none;
 }
