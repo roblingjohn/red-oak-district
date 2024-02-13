@@ -49,3 +49,11 @@ a.box-link {
   color: white;
   text-decoration: none;
 }
+
+.board-image {
+  width: 100%;
+}
+
+.board-name {
+  text-align: center;
+}
