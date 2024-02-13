@@ -14,6 +14,7 @@ import Newsletter from "./components/Newsletter";
 import History from "./containers/History";
 import Businesses from "./containers/Businesses";
 import Arts from "./containers/Arts";
+import Volunteer from "./containers/Volunteer";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="history" element={<History />} />
           <Route path="businesses" element={<Businesses />} />
           <Route path="arts" element={<Arts />} />
+          <Route path="volunteer" element={<Volunteer />} />
           <Route path="/" element={<Home />} />
         </Routes>
       </Router>

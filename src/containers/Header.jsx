@@ -12,11 +12,20 @@ const Header = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse>
             <Nav className="me-auto">
-              <Nav.Link href="/history">History</Nav.Link>
-              <Nav.Link href="/businesses">Businesses</Nav.Link>
-              <Nav.Link href="/arts">Arts & Culutre</Nav.Link>
-              <Nav.Link href="/events">Calendar</Nav.Link>
-              <NavDropdown title="Follow Us">
+              <NavDropdown title="The Neighborhood">
+                <NavDropdown.Item href="/history">History</NavDropdown.Item>
+                <NavDropdown.Item href="/arts">Arts & Culture</NavDropdown.Item>
+                <NavDropdown.Item href="/events">Events</NavDropdown.Item>
+                <NavDropdown.Item href="/businesses">
+                  Businesses
+                </NavDropdown.Item>
+              </NavDropdown>
+              <Nav.Link href="/cosf">CoSF</Nav.Link>
+              <NavDropdown title="About">
+                <NavDropdown.Item href="/program">The Program</NavDropdown.Item>
+                <NavDropdown.Item href="/volunteer">Volunteer</NavDropdown.Item>
+              </NavDropdown>
+              <NavDropdown title="Socials">
                 <NavDropdown.Item
                   href="https://www.facebook.com/RedOakDistrict/"
                   target="_blank"
